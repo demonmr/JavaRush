@@ -2,6 +2,7 @@ package com.javarush.task.task33.task3304;
 
 import com.fasterxml.jackson.annotation.JsonSubTypes;
 import com.fasterxml.jackson.annotation.JsonTypeInfo;
+import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.IOException;
@@ -18,6 +19,11 @@ public class Solution {
     }
 
     public static Object convertOneToAnother(Object one, Class resultClassObject) throws IOException {
+        StringWriter st = new StringWriter ();
+        ObjectMapper objectMapper = new ObjectMapper ();
+         //   objectMapper.writeValue (st,one);
+        String res = st.toString ().replaceFirst (one.getClass ().getSimpleName ().toLowerCase (),resultClassObject.getSimpleName ().toLowerCase ());
+      //  return objectMapper.readValue (res,resultClassObject);
         return null;
     }
 
