@@ -12,5 +12,7 @@
     <orderEntry type="library" name="jackson-core-2.8.1" level="project" />
     <orderEntry type="library" name="jackson-annotations-2.8.1" level="project" />
     <orderEntry type="library" name="jackson-databind-2.8.1" level="project" />
+    <orderEntry type="library" name="mssql-jdbc-7.2.2.jre8" level="project" />
+    <orderEntry type="library" name="slf4j-api-1.7.23" level="project" />
   </component>
 </module>
