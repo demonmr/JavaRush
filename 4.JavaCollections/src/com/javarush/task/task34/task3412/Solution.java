@@ -31,11 +31,13 @@ public class Solution {
         logger.trace ("Calculation");
         value -= 133;
         if (value > Integer.MAX_VALUE) {
-            logger.debug ("value1 ",(value / Integer.MAX_VALUE));
+
             value1 = (int) (value / Integer.MAX_VALUE);
+            logger.debug ("value1 ",(value / Integer.MAX_VALUE));
         } else {
-            logger.debug ("value1  ", value);
+
             value1 = (int) value;
+            logger.debug ("value1  ", value);
         }
     }
 
