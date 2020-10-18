@@ -1,27 +1,24 @@
 package com.javarush.task.task35.task3513;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+
 
 public class Main {
     //testing data
    static int score=0;
     static int maxTile=0;
     public static void main (String[] args) {
-     /*  Model model = new Model();
+      Model model = new Model();
        Tile[] mass = {new Tile (0),new Tile (0),new Tile (0),new Tile (0)};
         Tile[] mass1 = {new Tile (8),new Tile (4),new Tile (4),new Tile (0)};
         Tile[] mass2 = {new Tile (4),new Tile (4),new Tile (4),new Tile (0)};
-        System.out.println(model.compressTiles(mass)+"---"+model.compressTiles(mass1)+"---"+model.compressTiles(mass2));
-        System.out.println(model.mergeTiles(mass)+"---"+model.mergeTiles(mass1)+"---"+model.mergeTiles(mass2));
+
         for (int i = 0; i <mass1.length ; i++) {
             System.out.print(mass1[i].value+" ");
         }
         System.out.println();
         for (int i = 0; i <mass2.length ; i++) {
             System.out.print(mass2[i].value+" ");
-        }*/
+        }
       /*   rec (mass);
        rec (mass1);
         rec (mass2);*/
